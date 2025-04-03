@@ -14,7 +14,7 @@ async function initDB() {
 
   try {
     const connection = await pool.getConnection();
-    console.log('✅ Connecté à la base de données MySQL!');
+    console.log('Connecté à la base de données MySQL!');
     connection.release();
   } catch (err) {
     console.error('Erreur de connexion:', err.message);

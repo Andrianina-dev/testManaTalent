@@ -12,7 +12,6 @@ CREATE TABLE entity (
   createdAt DATETIME
 );
 
--- donnee test entity.....
 INSERT INTO entity (name, description, siret, keyLicence, website, createdAt) VALUES
 ('Entreprise A', 'Description test A', '11111111111111', 'KEY-AAA-111', 'http://test-a.com', NOW()),
 ('Entreprise B', 'Description test B', '22222222222222', 'KEY-BBB-222', 'http://test-b.com', NOW()),
